@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position:relative;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 239, 239);
+    align-items: center; 
+    color:rgb(239, 69, 239);
+    padding: 10px 20px;
+    width: 98%;
+    position: fixed;
+    z-index:1;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(133, 4, 133);
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+li a:hover{
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(234, 158, 234);
+}
+
+#input{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#Submit-button{
+    padding: 6px 20px;
+    border-radius: 7px;
+    background: white;
+    color: purple;
+    font-size: 14px;
+}
+
+#Submit-button:hover{
+    background: rgb(234, 158, 234);
+    color: rgb(223, 218, 223);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-items{
+
+    font-weight: 600;
+}
+
+.main-header{
+    background: url('./images/Restaurant-PNG-File-Download-Free.png');
+    max-width: 100vw;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.topic-button{
+    padding: 6px 20px;
+    border-radius: 7px;
+    background: white;
+    color: purple;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+#topic{
+    color: purple;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 60px;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+
+#motto{
+    color: purple;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
